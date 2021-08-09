@@ -9853,6 +9853,10 @@ button.bg-dark:focus {
   color: #3282b8 !important;
 }
 
+.title-text{
+  font-size: 48pt;
+}
+
 a.text-primary:hover, a.text-primary:focus {
   color: #824027 !important;
 }
