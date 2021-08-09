@@ -6382,6 +6382,10 @@ button.bg-dark:focus {
   display: inline-flex !important;
 }
 
+.d-lg-block {
+  display: block !important;
+}
+
 @media (min-width: 500px) {
   .d-sm-none {
     display: none !important;
@@ -6418,9 +6422,7 @@ button.bg-dark:focus {
   .d-sm-inline-flex {
     display: inline-flex !important;
   }
-  .d-lg-block {
-    display: block !important;
-  }
+
 }
 @media (min-width: 925px) {
   .d-md-none {
@@ -6459,10 +6461,6 @@ button.bg-dark:focus {
     display: inline-flex !important;
   }
 
-  .d-lg-block {
-    display: block !important;
-  }
-
 }
 
 @media (min-width: 1250px) {
@@ -6479,10 +6477,6 @@ button.bg-dark:focus {
   }
 
   .d-profile-block {
-    display: block !important;
-  }
-
-  .d-lg-block {
     display: block !important;
   }
 

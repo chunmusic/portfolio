@@ -1,8 +1,5 @@
 (function($) {
-  "use strict"; // Start of use strict
-  //The purpose of "use strict" is to indicate that the code should be executed in "strict mode".
-  //With strict mode, you can not, for example, use undeclared variables (lessprone to errors)
-  // Smooth scrolling using jQuery easing
+  "use strict";
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (
       location.pathname.replace(/^\//, "") ==
