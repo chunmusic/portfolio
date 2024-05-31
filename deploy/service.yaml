@@ -4,11 +4,10 @@ metadata:
   name: portfolio-service
   namespace: web-app
 spec:
-  type: LoadBalancer
   selector:
     app: portfolio
   ports:
-    - name: portfolio-port
-      protocol: TCP
+    - protocol: TCP
       port: 80
       targetPort: 8080
+  type: NodePort
